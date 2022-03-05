@@ -220,11 +220,12 @@ Respuesta:
 
 ***
 ### Tools ###
-
+<pre>
 FTK Imager
-Regripper
-ilSpy
-Mandiant’s Speakeasy
-CyberChef
-JAD (Java Decompiler)
-Eventviewer
+Regripper 
+ilSpy 
+Mandiant’s Speakeasy 
+CyberChef 
+JAD (Java Decompiler) 
+Eventviewer 
+</pre>
