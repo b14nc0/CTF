@@ -210,7 +210,7 @@ Respuesta:
 
 Evidencias:
 
-    Use ilspy
+    ilspy
     67 1d 2f 2e ^ ItAGEocK
     ilspy 2
 
