@@ -1,5 +1,5 @@
 ## PAPER ##
-### Reconocimiento ###
+
 ***
 Ejecutamos nmap 
     
@@ -33,6 +33,35 @@ Vemos que esta montado en Wordpress
 Escaneamos la pagina con wpscan
 
     wpscan --url http://office.paper/ wpscan --url http://office.paper/
+    
+Detectamos que la version del wordpress 5.2.3 es vulnerable
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/wpscan.jpg)
+
+Buscamos en searchsploit vulnerabilidades para la version de wordpress 5.2.3 y encontramos WordPress Core < 5.2.3 - Viewing Unauthenticated/Password/Private Posts 
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/searchsploit.jpg)
+
+Explotamos la vulnerabilidad
+
+        http://oficina.papel/?static=1
+ 
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/pagStatic.jpg)
+
+Encontramos una pagina secreta para el registro en un chat
+
+        http://chat.office.paper/register/8qozr226AhkCHZdyY
+        
+Entramos en la pagina y nos registramos
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/pagina%20de%20registro.jpg)
+
+Y nos logamos con el usuario generado
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/login.jpg)
+
+
+
 
 ![Image text]()
 ![Image text]()
@@ -40,3 +69,4 @@ Escaneamos la pagina con wpscan
 ![Image text]()
 ![Image text]()
 ![Image text]()
+
