@@ -97,10 +97,22 @@ Conseguimos la Flag de user.txt
 ![Image text](https://github.com/b14nc0/images/blob/main/Paper/flagUser.jpg)
 
 ### Root ###
+***
 
-![Image text]()
-![Image text]()
-![Image text]()
-![Image text]()
-![Image text]()
+Probamos sudo su, sudo -l con la password obtenida pero conseguimos nada.
+Subimos a la maquina lineas.sh en busca de posibles rutas para escalar privilegios y detectamos que sudo es vulnerable al exploit CVE-2021-3560
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/vulnSudo.jpg)
+
+Subimos el exploit CVE-2021-3560
+https://github.com/Almorabea/Polkit-exploit/blob/main/CVE-2021-3560.py
+y explotamos la vulnerabilidad
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/cve20213560.jpg)
+
+Conseguimos acceso con root y leemos la flag
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/root.jpg)
+
+
 
