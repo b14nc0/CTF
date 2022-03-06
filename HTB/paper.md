@@ -1,9 +1,11 @@
-## PAPER ##
-***
+![cover](https://github.com/b14nc0/images/blob/main/Paper/paper2.jpg)
+
+## Linux - Easy
+IP = 10.10.11.143
 
 ### USER ###
 
-***
+*** 
 Ejecutamos nmap 
     
     nmap 10.10.11.143 -p- --open --min-rate 5000 -v -n -oG allPorts
