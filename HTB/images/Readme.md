@@ -1,1 +1,0 @@
-Imagenes de los CTF
