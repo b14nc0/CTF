@@ -1,4 +1,4 @@
-![Image text](https://github.com/b14nc0/images/blob/main/Paper/Paper.png =250x250) ## PAPER ##
+## PAPER ##
 ***
 
 ### USER ###
