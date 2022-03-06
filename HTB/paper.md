@@ -1,4 +1,7 @@
 ## PAPER ##
+***
+
+### USER ###
 
 ***
 Ejecutamos nmap 
@@ -51,6 +54,10 @@ Explotamos la vulnerabilidad
 Encontramos una pagina secreta para el registro en un chat
 
         http://chat.office.paper/register/8qozr226AhkCHZdyY
+
+Editamos el fichero /etc/hosts e incluimos chat.office.papper
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/hosts2.jpg)
         
 Entramos en la pagina y nos registramos
 
@@ -60,10 +67,37 @@ Y nos logamos con el usuario generado
 
 ![Image text](https://github.com/b14nc0/images/blob/main/Paper/login.jpg)
 
+Navegamos por la pagina y descubrimos un chat general que en el cual no podemos escribir, pero detectamos que hay un bot recyclops con el que podemos interactuar.
 
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/chatBot.jpg)
 
+Interactuamos con el bot y nos devuelve mensajes para comandos para listar carpetas y abrir ficheros
 
-![Image text]()
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/bot.jpg)
+
+Listamos caperta con el bot 
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/recyclopslist.jpg)
+
+Encontramos una carpeta que se llama hubot 
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/recyclopslisthubot.jpg)
+
+Dentro de la carpeta hay un fichero .env y en el nos encontramos una password
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/recyclopsFileHubotEnv.jpg)
+
+Probamos a conectarnos por ssh con los datos encontrados en el fichero .env pero no funciona.
+Vemos que el dueño de los ficheros listados es dwight probamos con ese usuario y la password encontrada y accedemos.
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/ssh.jpg)
+
+Conseguimos la Flag de user.txt
+
+![Image text](https://github.com/b14nc0/images/blob/main/Paper/flagUser.jpg)
+
+### Root ###
+
 ![Image text]()
 ![Image text]()
 ![Image text]()
