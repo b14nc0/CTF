@@ -55,6 +55,9 @@ lanzamos hydra para ver si nos conecta por ssh con las credenciales obtenidas.
     
 [](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/hydra.jpg)
 
+### ROOT ###
+
+*** 
 Accemos con root por ssh
 
     ssh -o KexAlgorithms=diffie-hellman-group1-sha1 -o Ciphers=aes256-cbc root@10.10.10.7
