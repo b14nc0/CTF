@@ -63,7 +63,7 @@ Accemos con root por ssh
     ssh -o KexAlgorithms=diffie-hellman-group1-sha1 -o Ciphers=aes256-cbc root@10.10.10.7
     
  [](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/ssh.jpg)
-
+ 
 conseguimos la flag de user.txt
 
 [](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/flagUser.txt.jpg)
