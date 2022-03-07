@@ -66,11 +66,11 @@ Accemos con root por ssh
  
 conseguimos la flag de user.txt
 
-[](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/flagUser.txt.jpg)
+![](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/flagUser.txt.jpg)
 
 conseguimos la flag de root.txt
 
-[](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/flagRoot.jpg)
+![](https://github.com/b14nc0/CTF/blob/main/HTB/images/beep/flagRoot.jpg)
 
 
 
