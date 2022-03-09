@@ -13,7 +13,7 @@
 
 | Machine Name | Date Owned | Difficulty | IP | Creator |
 | :--- | :--- | :--- | :--- | :--- |
-| [Legacy]() |  | Easy ||   | 
+| [Legacy]() |  In process | Easy ||   | 
 
 
 ***
