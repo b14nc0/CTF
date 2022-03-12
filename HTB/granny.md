@@ -37,6 +37,7 @@ Esta cuenta tiene permisos de acceso a los recursos de red pero no podemos hacer
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/granny/networkservice.jpg)
 
 Buscamos informacion para la escalada de privilegios y encontramos el articulo
+
 https://binaryregion.wordpress.com/2021/08/04/privilege-escalation-windows-churrasco-exe/
 
 ejecutamos 
