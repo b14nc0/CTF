@@ -16,7 +16,7 @@ Ejecutamos nmap
 
 ![Image text](https://github.com/b14nc0/CTF/blob/main/HTB/images/granny/targeted.jpg)
 
-Detectamos un puerto IIS 6.0 habilitado 
+Detectamos el pueto 80 con IIS 6.0 
 
 Buscamos vulnerabilidades de IIS 6.0 y encontramos el CVE-2017-7269
 
