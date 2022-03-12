@@ -13,7 +13,7 @@
 
 | Machine Name | Date Owned | Difficulty | IP | Creator |
 | :--- | :--- | :--- | :--- | :--- |
-| [Legacy]() | 12/03/2022 | Easy | 10.10.10.4 | ch4p | 
+| [Legacy](https://github.com/b14nc0/CTF/blob/main/HTB/legacy.md) | 12/03/2022 | Easy | 10.10.10.4 | ch4p | 
 
 
 ***
