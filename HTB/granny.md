@@ -31,6 +31,7 @@ Ejecutamos el exploit poniendo el puerto a la escucha.
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/granny/acceso.jpg)   
 
 Conseguimos acceso a la maquina, comprobamos el usuario con el que hemos accedido nt autority\network service
+
 Esta cuenta tiene permisos de acceso a los recursos de red pero no podemos hacer nada con ella.
 
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/granny/networkservice.jpg)
