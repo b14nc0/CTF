@@ -1,6 +1,6 @@
 # Writeup CTF
 
-## HTB
+![HTB](https://github.com/b14nc0/CTF/blob/main/HTB/images/htb.jpg)
 ### Linux Machines
 
 | Machine Name | Date Owned | Difficulty | IP | Creator |
