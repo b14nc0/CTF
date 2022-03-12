@@ -13,7 +13,7 @@
 
 | Machine Name | Date Owned | Difficulty | IP | Creator |
 | :--- | :--- | :--- | :--- | :--- |
-| [Legacy]() |  In process | Easy ||   | 
+| [Legacy]() | 12/03/2022 | Easy | 10.10.10.4 | ch4p | 
 
 
 ***
