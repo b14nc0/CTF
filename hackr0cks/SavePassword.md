@@ -13,6 +13,6 @@ Revisamos el codigo y encontramos un script que se llama no me guardes.
 
 ![](https://github.com/b14nc0/CTF/blob/main/hackr0cks/images/savePassword/SavePassword1.jpg)
 
-Revisamo el script y vemos que se en el se encuentra la contraseña en texto plano.
+Revisamos el script y vemos que se en el se encuentra la contraseña en texto plano.
 
 ![](https://github.com/b14nc0/CTF/blob/main/hackr0cks/images/savePassword/SavePassword2.jpg)
