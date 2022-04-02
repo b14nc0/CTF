@@ -29,6 +29,6 @@
 ***
 
 ![Hackr0cks](https://github.com/b14nc0/CTF/blob/main/hackr0cks/hackr0cks.jpg)
-| Challenge | Date Owned | Type | Creator |
+| Challenge | Date Owned | Difficulty | Type | Creator |
 | :--- | :--- | :--- | :--- |
-| [Save Password](https://github.com/b14nc0/CTF/blob/main/hackr0cks/SavePassword.md) | 02/04/2022 | Novato |  Hackr0cks |
+| [Save Password](https://github.com/b14nc0/CTF/blob/main/hackr0cks/SavePassword.md) | 02/04/2022 | Software Security |Novato |  Hackr0cks |
