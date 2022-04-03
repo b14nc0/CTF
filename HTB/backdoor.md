@@ -45,7 +45,8 @@ Descargamos el wp-config y nos muestra datos de la bbdd
 
 ![](https://github.com/b14nc0/CTF/blob/main/HTB/images/backdoor/poc.jpg)
 
-Buscando informacion, encontramos la forma de ver los procesos en ejecucion en la maquina, 
+Buscando informacion, encontramos la forma de ver los procesos en ejecucion en la maquina
+
 https://www.netspi.com/blog/technical/web-application-penetration-testing/directory-traversal-file-inclusion-proc-file-system/
 
 Procedemos a crear un script para ver que es lo que se ejecuta.
